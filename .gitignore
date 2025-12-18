@@ -1,0 +1,36 @@
+# ===============================
+# Global ignores (entire repo)
+# ===============================
+
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor / IDE files
+.vscode/
+.idea/
+
+# ===============================
+# Build outputs (safety net)
+# ===============================
+
+# Frontend builds
+build/
+dist/
+
+# Backend builds (if any)
+out/
